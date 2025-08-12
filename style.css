@@ -1,0 +1,16 @@
+* {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#clock {
+    padding: 0 10px;
+}
+
+#wlr-taskbar button {
+    padding: 0 5px;
+}
+
+#pulseaudio {
+    padding: 0 10px;
+}

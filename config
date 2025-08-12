@@ -1,0 +1,24 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": ["wlr/taskbar"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio"],
+
+    "wlr/taskbar": {
+        "format": "{title}",
+        "icon-size": 16
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%A, %d %B %Y}"
+    },
+
+    "pulseaudio": {
+        "format": "{volume}% ",
+        "format-muted": "",
+        "tooltip": true,
+        "scroll-step": 5
+    }
+}
